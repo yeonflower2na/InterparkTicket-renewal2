@@ -266,7 +266,7 @@ fetch('../footer/footer.html')
     document.querySelectorAll('.footer-include').forEach((a) => {
       a.innerHTML = data;
     });
-    document.querySelector('.footer-logo').src = '../footer/img/footer-logo.png';
+    document.querySelector('.footer-logo img').src = '../footer/img/footer-logo.png';
   })
   .catch((err) => console.log(err));
 
