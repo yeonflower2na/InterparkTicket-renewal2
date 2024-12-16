@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/e5d2f8c8-bcbc-4b5a-948e-74be4b50511" width="170" alt="interparkticket-logo"/>
+  <img src="https://github.com/user-attachments/assets/e5d2f8c8-bcbc-4b5a-948e-74be4b505118" width="170" alt="interparkticket-logo"/>
 
 # 인터파크 티켓 리뉴얼
 </div>
