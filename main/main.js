@@ -1,5 +1,5 @@
 // 헤더 불러오기
-fetch("./header/header.html")
+fetch("/header/header.html")
   .then((res) => res.text())
   .then((data) => {
     document.querySelector(".header-include").innerHTML = data;
