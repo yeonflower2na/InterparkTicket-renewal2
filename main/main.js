@@ -1,5 +1,5 @@
 // 헤더 불러오기
-fetch("header/header.html")
+fetch("../header/header.html")
   .then((res) => res.text())
   .then((data) => {
     document.querySelector(".header-include").innerHTML = data;
@@ -296,7 +296,7 @@ function ChangePopupStyle() {
   let styleArr = [
     {
       color: "#AB2328",
-      txt: '아직도 <img src="../header/img/popToping_newwhite.png" alt="Toping"> 회원이 아니신가요?',
+      txt: '아직도 <img src="header/img/popToping_newwhite.png" alt="Toping"> 회원이 아니신가요?',
     },
     {
       color: "#8E43E7",
