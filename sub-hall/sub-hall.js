@@ -19,10 +19,10 @@ fetch('../header/header.html')
       });
     document
       .querySelector('.header-include-hall .hdr-logo')
-      .setAttribute('src', `img/hdr-subhall-logo.svg`);
+      .setAttribute('src', `../header/img/hdr-subhall-logo.svg`);
     document
       .querySelector('.header-include-hall .dropdown-icon')
-      .setAttribute('src', `img/hdr-subhall-dropdown.svg`);
+      .setAttribute('src', `../header/img/hdr-subhall-dropdown.svg`);
 
     //로그인 모달 불러오기
     fetch('../login-modal/login-modal.html')
